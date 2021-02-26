@@ -8,8 +8,8 @@ Request Body
 {
     "locations": [
         {
-            "latitude": "Coordinate",
-            "longitude": "Coordinate"
+            "latitude": "Float",
+            "longitude": "Float"
         }
     ],
     "seats": "int",
@@ -38,12 +38,12 @@ Response
 {
     "userId": "UUID",
     "pickupPoint": {
-        "latitude": "Coordinate",
-        "longitude": "Coordinate"
+        "latitude": "Float",
+        "longitude": "Float"
     },
     "dropoffPoint": {
-        "latitude": "Coordinate",
-        "longitude": "Coordinate"
+        "latitude": "Float",
+        "longitude": "Float"
     },
     "requested": "Boolean"
 }
@@ -58,8 +58,8 @@ Request Body
 ```json
 [
     {
-        "latitude": "Coordinate",
-        "longitude": "Coordinate"
+        "latitude": "Float",
+        "longitude": "Float"
     }
 ]
 ```
@@ -129,12 +129,12 @@ Request Body
 ```json
 {
     "location": {
-        "latitude": "Coordinate",
-        "longitude": "Coordinate"
+        "latitude": "Float",
+        "longitude": "Float"
     },
     "destination": {
-        "latitude": "Coordinate",
-        "longitude": "Coordinate"
+        "latitude": "Float",
+        "longitude": "Float"
     },
     "tolerance": "Integer",
     "requestedSeats": "Integer",
@@ -179,8 +179,8 @@ Authorization: <sessionId>
 Request Body
 ```json
 {
-    "latitude": "Coordinate",
-    "longitude": "Coordinate"
+    "latitude": "Float",
+    "longitude": "Float"
 }
 ```
 Response
