@@ -204,6 +204,8 @@ Request Body
 }
 ```
 Response
-```
-200 OK
+```json
+{
+    "status": "accepted|declined"
+}
 ```
