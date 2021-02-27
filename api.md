@@ -36,7 +36,7 @@ Authorization: <sessionId>
 Response
 ```json
 {
-    "userId": "UUID",
+    "passengerId": "UUID",
     "pickupPoint": {
         "latitude": "Float",
         "longitude": "Float"
@@ -77,7 +77,7 @@ Request Body
 ```json
 [
     {
-        "userId": "UUID",
+        "passengerId": "UUID",
         "pickupTime": "Int",
         "destinationTime": "Int"
     }
@@ -97,7 +97,7 @@ Request Body
 ```json
 [
     {
-        "userId": "UUID",
+        "passengerId": "UUID",
         "accepted": "Boolean"
     }
 ]
@@ -115,7 +115,7 @@ Authorization: <sessionId>
 Request Body
 ```json
 {
-    "userId": "UUID"
+    "passengerId": "UUID"
 }
 ```
 Response
