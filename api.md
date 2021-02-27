@@ -6,6 +6,7 @@
 Request Body
 ```json
 {
+    "name": "String",
     "locations": [
         {
             "latitude": "o",
@@ -37,6 +38,7 @@ Response
 ```json
 {
     "passengerId": "UUID",
+    "name": "String",
     "pickupPoint": {
         "latitude": "Float",
         "longitude": "Float"
@@ -128,6 +130,7 @@ Response
 Request Body
 ```json
 {
+    "name": "String",
     "location": {
         "latitude": "Float",
         "longitude": "Float"
@@ -161,6 +164,7 @@ Response
 [
     {
         "driverId": "UUID",
+        "name": "String",
         "pickupTime": "Int",
         "destinationTime": "Int"
     }
