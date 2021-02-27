@@ -156,7 +156,7 @@ Header
 ```
 Authorization: <sessionId>
 ```
-Request Body
+Response
 ```json
 [
     {
