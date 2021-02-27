@@ -8,7 +8,7 @@ Request Body
 {
     "locations": [
         {
-            "latitude": "Float",
+            "latitude": "o",
             "longitude": "Float"
         }
     ],
@@ -98,7 +98,7 @@ Request Body
 [
     {
         "userId": "UUID",
-        "status": "accepted|declined"
+        "accepted": "Boolean"
     }
 ]
 ```
