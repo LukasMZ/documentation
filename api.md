@@ -206,6 +206,6 @@ Request Body
 Response
 ```json
 {
-    "status": "accepted|declined"
+    "status": "accepted|denied"
 }
 ```
