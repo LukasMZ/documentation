@@ -9,7 +9,7 @@ Request Body
     "name": "String",
     "locations": [
         {
-            "latitude": "o",
+            "latitude": "Float",
             "longitude": "Float"
         }
     ],
