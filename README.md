@@ -6,7 +6,7 @@
 
 WEel ist eine Lösung, welche es Passagieren die nachhaltig und flexibel an ihr Ziel gelangen wollen ermöglicht, in Echtzeit nach einer passenden privaten Mitfahrgelegenheit zu suchen. Dies trägt enorm dazu bei, Leerfahrten zu minimieren und somit den ökologischen Fußabdruck zu reduzieren.
 
-Es handelt sich um eine intuitiv bedienbare App, welche über eine Sicht für Passagiere als auch eine Sicht für Fahrer verfügt. 
+Es handelt sich um eine intuitiv bedienbare App, welche sowohl über eine Sicht für Passagiere als auch eine Sicht für Fahrer verfügt. 
 Ein Fahrer legt zunächst die Destination fest. Zusätzlich definiert dieser einmalig weitere Rahmenbedingungen und gibt die Anzahl von freien Sitzplätzen an. Beim nächsten Start der Anwendung werden diese Präferenzen automatisch angewandt.
 
 Ein Passagier sucht ebenfalls nach einer Destination. Die Anwendung erkennt, welche Fahrer diese Strecke fahren und liefert dem Passagier eine Übersicht derer. 
