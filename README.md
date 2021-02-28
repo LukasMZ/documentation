@@ -1,6 +1,6 @@
 # WEel
 
-## Slogan - Drives communities together
+## Slogan - Driving communities together
 
 ## Kurzbeschreibung der Solution und Präsentation mit den Schlüsselbotschaften
 
