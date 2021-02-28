@@ -4,12 +4,12 @@
 
 ## Kurzbeschreibung der Solution und Präsentation mit den Schlüsselbotschaften
 
-WEel ist eine Lösung, welche es Passagieren die nachhaltig und flexibel an ihr Ziel gelangen wollen ermöglicht, in Echtzeit nach einer passenden privaten Mitfahrgelegenheit zu suchen. Dies trägt enorm dazu bei, Leerfahrten zu minimieren und somit den ökologischen Fußabdruck zu reduzieren.
+WEel ist eine Lösung, welche es Passagieren, die nachhaltig und flexibel an ihr Ziel gelangen wollen, ermöglicht, in Echtzeit nach einer passenden privaten Mitfahrgelegenheit zu suchen. Dies trägt enorm dazu bei, Leerfahrten zu minimieren und somit den ökologischen Fußabdruck zu reduzieren.
 
 Es handelt sich um eine intuitiv bedienbare App, welche sowohl über eine Sicht für Passagiere als auch eine Sicht für Fahrer verfügt. 
-Ein Fahrer legt zunächst die Destination fest. Zusätzlich definiert dieser einmalig weitere Rahmenbedingungen und gibt die Anzahl von freien Sitzplätzen an. Beim nächsten Start der Anwendung werden diese Präferenzen automatisch angewandt.
+Ein Fahrer legt zunächst sein Ziel fest. Zusätzlich definiert dieser einmalig weitere Rahmenbedingungen und gibt die Anzahl von freien Sitzplätzen an. Beim nächsten Start der Anwendung werden diese Präferenzen automatisch angewandt.
 
-Ein Passagier sucht ebenfalls nach einer Destination. Die Anwendung erkennt, welche Fahrer diese Strecke fahren und liefert dem Passagier eine Übersicht derer. 
+Ein Passagier sucht ebenfalls nach einem Ziel. Die Anwendung erkennt, welche Fahrer diese Strecke fahren und liefert dem Passagier eine Übersicht derer. 
 Der Passagier wählt den Wunschfahrer und wird zu einem Treffpunkt gelotst. 
 Für den Fahrer entsteht hierbei kein Umweg!
 
@@ -23,14 +23,14 @@ WEel bietet sowohl ein Backend als auch ein Frontend in Form einer iOS Applikati
 ### Prototyp/Applikation
 WEel läuft produktiv. 
 
-Das Backend befindet sich auf einem Kubernetes Cluster und ist über eine API Schnittstelle erreichbar. 
+Das Backend befindet sich auf einem Kubernetes Cluster in der Google Cloud Platform und ist über eine API Schnittstelle erreichbar. 
 
-**(WEel API)[https://api.mesh.kuly.cloud/]** (Ansprechbare Pfade in API Doku beschrieben)
+(WEel API)[https://api.mesh.kuly.cloud/] (Ansprechbare Pfade in API Doku beschrieben)
 
-Die iOS Applikation kann gebaut werden.
+Die iOS Applikation kann aus dem Source Code gebaut werden.
 
 ### Dokumentation
-Aufgrund der verschiedenen Komponenten von WEel, bietet es diverse verschiedene Dokumentationen an, die den Zweck und den Aufbau der Applikation beschreiben.
+Aufgrund der verschiedenen Komponenten von WEel, bietet es diverse verschiedene Dokumentationen an, die den Zweck und den Aufbau der Applikation beschreiben. Ein usiness Plan ist vorhanden.
 
 * [WEel - Business Plan](./business_plan.pdf)
 * [WEel - API Dokumentation](./api.md)
